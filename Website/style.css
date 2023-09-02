@@ -1,0 +1,403 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  width: 100%;
+  height: 15vh;
+  background-color: rgba(205, 217, 228, 0.364);
+}
+.top-nav {
+  width: 100%;
+  height: 5vh;
+  background-color: rgb(54, 40, 40);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0em 3em;
+  margin: 2vh 0 0 0;
+}
+#appointment {
+  height: 5vh;
+  background-color: chocolate;
+  border: none;
+  color: white;
+  padding: 0.5em 1em;
+}
+.bottom-nav {
+  width: 100%;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0em 3em;
+}
+.bottom-nav div:nth-child(3) i {
+  font-size: x-large;
+}
+.link {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.link a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+.main-container {
+  width: 100%;
+  height: auto;
+}
+.banner-section {
+  width: 100%;
+  height: 50vh;
+  background-color: rgb(54, 40, 40);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner-container {
+  text-align: center;
+}
+.banner-container p {
+  color: purple;
+  font-size: large;
+  margin: 0.3em;
+}
+.banner-container h1 {
+  color: white;
+  font-size: xx-large;
+  letter-spacing: 0.5em;
+}
+#read-more {
+  height: 4vh;
+  background-color: chocolate;
+  border: none;
+  padding: 0.5em;
+  color: white;
+  margin: 1em;
+}
+#contact-us {
+  height: 4vh;
+  background-color: rgb(68, 51, 51);
+  border: none;
+  padding: 0.5em;
+  color: white;
+  margin: 1em;
+}
+
+.information-section {
+  width: 100%;
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.information-section div i {
+  color: crimson;
+  font-size: 4em;
+}
+.information-section div h3,
+.information-section div p {
+  color: rgb(75, 42, 49);
+}
+
+.footer {
+  width: 100%;
+  height: 10vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0em 3em;
+}
+
+/********************************************* RESPONSIVE *****************************************  */
+
+@media screen and (max-width: 384px) {
+  .top-nav {
+    padding: 0em 0.5em;
+  }
+  .top-nav div {
+    font-size: 7px;
+  }
+  #appointment {
+    padding: 0.1em 0.5em;
+    font-size: smaller;
+  }
+  .bottom-nav {
+    padding: 0em 0.5em;
+  }
+  .bottom-nav div h1 {
+    font-size: small;
+  }
+  .bottom-nav div:nth-child(3) i {
+    font-size: small;
+  }
+  .link a {
+    font-size: 8px;
+  }
+  .banner-container p {
+    font-size: xx-small;
+    margin: 0.3em;
+  }
+  .banner-container h1 {
+    font-size: small;
+  }
+  #read-more,
+  #contact-us {
+    padding: 0.2em;
+    font-size: 8px;
+  }
+  .information-section div i {
+    color: crimson;
+    font-size: 1.2em;
+  }
+  .information-section div h3,
+  .information-section div p {
+    font-size: xx-small;
+  }
+  .footer {
+    padding: 0em 0.5em;
+    font-size: xx-small;
+  }
+}
+
+@media screen and (min-width: 384px) and (max-width: 484px) {
+  .top-nav {
+    padding: 0em 0.5em;
+  }
+  .top-nav div {
+    font-size: 7px;
+  }
+  #appointment {
+    padding: 0.1em 0.5em;
+    font-size: smaller;
+  }
+  .bottom-nav {
+    padding: 0em 0.5em;
+  }
+  .bottom-nav div h1 {
+    font-size: large;
+  }
+  .bottom-nav div:nth-child(3) i {
+    font-size: small;
+  }
+  .link a {
+    font-size: 10px;
+  }
+  .banner-container p {
+    font-size: xx-small;
+    margin: 0.3em;
+  }
+  .banner-container h1 {
+    font-size: small;
+  }
+  #read-more,
+  #contact-us {
+    padding: 0.2em;
+    font-size: 8px;
+  }
+  .information-section div i {
+    color: crimson;
+    font-size: 1.5em;
+  }
+  .information-section div h3,
+  .information-section div p {
+    font-size: x-small;
+  }
+  .footer {
+    padding: 0em 0.5em;
+    font-size: xx-small;
+  }
+}
+
+@media screen and (min-width: 484px) and (max-width: 600px) {
+  .top-nav {
+    padding: 0em 0.5em;
+  }
+  .top-nav div {
+    font-size: 10px;
+  }
+  #appointment {
+    padding: 0.1em 0.5em;
+    font-size: smaller;
+  }
+  .bottom-nav {
+    padding: 0em 0.5em;
+  }
+  .bottom-nav div:nth-child(3) i {
+    font-size: small;
+  }
+  .link a {
+    font-size: 13px;
+  }
+  .banner-container p {
+    font-size: small;
+    margin: 0.3em;
+  }
+  .banner-container h1 {
+    font-size: large;
+  }
+  #read-more,
+  #contact-us {
+    padding: 0.2em;
+    font-size: 10px;
+  }
+  .information-section div i {
+    color: crimson;
+    font-size: 2em;
+  }
+  .information-section div h3,
+  .information-section div p {
+    font-size: x-small;
+  }
+  .footer {
+    padding: 0em 0.5em;
+    font-size: x-small;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  .top-nav {
+    padding: 0em 0.7em;
+  }
+  .top-nav div {
+    font-size: 13px;
+  }
+  #appointment {
+    padding: 0.2em 0.6em;
+    font-size: small;
+  }
+  .bottom-nav {
+    padding: 0em 0.7em;
+  }
+  .bottom-nav div:nth-child(3) i {
+    font-size: large;
+  }
+  .link a {
+    font-size: 15px;
+  }
+  .banner-container p {
+    font-size: large;
+    margin: 0.3em;
+  }
+  .banner-container h1 {
+    font-size: x-large;
+  }
+  #read-more,
+  #contact-us {
+    padding: 0.3em;
+    font-size: 13px;
+  }
+  .information-section div i {
+    color: crimson;
+    font-size: 2em;
+  }
+  .information-section div h3,
+  .information-section div p {
+    font-size: small;
+  }
+  .footer {
+    padding: 0em 0.5em;
+    font-size: small;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .top-nav {
+    padding: 0em 0.8em;
+  }
+  .top-nav div {
+    font-size: 15px;
+  }
+  #appointment {
+    padding: 0.2em 0.6em;
+    font-size: small;
+  }
+  .bottom-nav {
+    padding: 0em 0.7em;
+  }
+  .bottom-nav div:nth-child(3) i {
+    font-size: large;
+  }
+  .link a {
+    font-size: 16px;
+  }
+  .banner-container p {
+    font-size: large;
+    margin: 0.3em;
+  }
+  .banner-container h1 {
+    font-size: x-large;
+  }
+  #read-more,
+  #contact-us {
+    padding: 0.3em;
+    font-size: 13px;
+  }
+  .information-section div i {
+    color: crimson;
+    font-size: 2.5em;
+  }
+  .information-section div h3,
+  .information-section div p {
+    font-size: small;
+  }
+  .footer {
+    padding: 0em 0.6em;
+    font-size: small;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .top-nav {
+    padding: 0em 1em;
+  }
+  .top-nav div {
+    font-size: 15px;
+  }
+  #appointment {
+    padding: 0.2em 0.6em;
+    font-size: small;
+  }
+  .bottom-nav {
+    padding: 0em 1em;
+  }
+  .bottom-nav div:nth-child(3) i {
+    font-size: large;
+  }
+  .link a {
+    font-size: 16px;
+  }
+  .banner-container p {
+    font-size: larger;
+    margin: 0.3em;
+  }
+  .banner-container h1 {
+    font-size: xx-large;
+  }
+  #read-more,
+  #contact-us {
+    padding: 0.4em;
+    font-size: 13px;
+  }
+  .information-section div i {
+    color: crimson;
+    font-size: 3em;
+  }
+  .information-section div h3,
+  .information-section div p {
+    font-size: large;
+  }
+  .footer {
+    padding: 0em 0.6em;
+    font-size: small;
+  }
+}

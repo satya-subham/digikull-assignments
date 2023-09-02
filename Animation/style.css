@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .container {
+    width: 50%;
+    height: 60vh;
+    background-color: aqua;
+} */
+.header {
+    width: 500px;
+    height: 120px;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.black-circles {
+    width: 150px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+.circle {
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 0px 10px;
+    position: relative;
+}
+.circle div {
+    width: 7px;
+    height: 10px;
+    background-color: darkslategrey;
+    position: absolute;
+    top: 40px;
+    left: 17px;
+}
+.main-circle {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(217, 199, 217);
+    border-radius: 50%;
+    border: 7px solid purple;
+}
+.three-stretch-divs {
+    width: 150px;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 10px;
+}
+.stretch-div {
+    width: 10px;
+    height: 30px;
+    background-color: cadetblue;
+    margin: 3px;
+}
+
+
+
+.main {
+    width: 450px;
+    height: 300px;
+    background-color: rgb(123, 220, 220);
+    margin: 0px 25px;
+    position: relative;
+}
+.cofee-container {
+    width: 270px;
+    height: 100px;
+    /* background-color: brown; */
+    position: relative;
+}
+.cofee-div-1 {
+    width: 80px;
+    height: 30px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.cofee-div-2 {
+    width: 70px;
+    height: 30px;
+    background-color: black;
+    position: absolute;
+    top: 30px;
+    right: 5px;
+    border-radius: 0 0 50% 50%;
+}
+.cofee-div-3 {
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    position: absolute;
+    bottom: 26px;
+    right: 32px;
+}
+
+.cofee{
+    width: 12px;
+    height: 135px;
+    background-color: #6F4E37;
+    position: absolute;
+    left: 82.9%;
+    top: 74%;
+    animation: coffee 1.3s 0s linear infinite;
+}
+
+@keyframes coffee {
+   0% {
+    height: 0px;
+   }
+   25%{
+    height: 33px;
+   }
+   50%{
+    height: 67px;
+   }
+   75%{
+    height: 100px;
+   }
+   100%{
+    height: 135px;
+   }
+
+}
+
+
+.water-container {
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    position: absolute;
+    top: 20px;
+    right: 40px;
+}
+.water-pipe {
+    width: 45px;
+    height: 10px;
+    background-color: rgba(54, 34, 37, 0.401);
+    margin-top: 10px;
+    margin-left: -45px;
+}
+
+.cup-container {
+    width: 400px;
+    height: 180px;
+    background-color: cadetblue;
+    margin: 0px 25px;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.cup {
+    width: 100px;
+    height: 70px;
+    background-color: white;
+    border-radius: 0px 0px 50px 50px;
+    position: relative;
+}
+.cofee-smoke-div{
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.cofee-smoke {
+    width: 8px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: #784c4c92;
+    
+}
+.smoke-1 {
+    position: absolute;
+    top: 0;
+    left: 5px;
+    animation: smoke-1 2s 0s linear infinite;
+}
+@keyframes smoke-1 {
+    0%{
+        top: -20px;
+        opacity: 0;
+    }
+    25%{
+        top: -30px;
+        opacity: .3;
+    }
+    50%{
+        top: -40px;
+        opacity: .5;
+    }
+    75%{
+        top: -50px;
+        opacity: .3;
+    }
+    100%{
+        top: -60px;
+        opacity: 0;
+    }
+}
+
+.smoke-2 {
+    position: absolute;
+    top: 0;
+    left: 30px;
+    animation: smoke-2 3s 0s linear infinite;
+}
+@keyframes smoke-2 {
+    0%{
+        top: -20px;
+        opacity: 0;
+    }
+    25%{
+        top: -30px;
+        opacity: .3;
+    }
+    50%{
+        top: -40px;
+        opacity: .5;
+    }
+    75%{
+        top: -50px;
+        opacity: .3;
+    }
+    100%{
+        top: -60px;
+        opacity: 0;
+    }
+}
+
+.smoke-3 {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    animation: smoke-2 4s 0s linear infinite;
+}
+.smoke-4 {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    animation: smoke-2 5s 0s linear infinite;
+}
+
+
+.cup-ring {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: 7px;
+    right: -20px;
+    border: 5px solid white;
+}
+.cup-stand {
+    width: 450px;
+    height: 20px;
+    background-color: rgb(120, 91, 91);
+    border-radius: 10px 10px 0 0;
+}
+.footer {
+    width: 500px;
+    height: 24px;
+    background-color: black;
+    border-radius: 10px;
+}

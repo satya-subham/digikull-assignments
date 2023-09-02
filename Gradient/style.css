@@ -1,0 +1,19 @@
+.grad {
+    width: 500px;
+    height: 500px;
+    margin: 0px 0px 10px 0px;
+    background-image: linear-gradient( red, black);
+}
+
+.grad-1 {
+    background-image: linear-gradient(to bottom right, red, black);
+}
+.grad-2 {
+    background-image: linear-gradient(to bottom left, red, black);
+}
+.grad-3 {
+    background-image: linear-gradient(to top left, red, black);
+}
+.grad-4 {
+    background-image: linear-gradient(to top right, red, black);
+}

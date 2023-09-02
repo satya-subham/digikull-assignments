@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  width: 5%;
+  height: 80vh;
+}
+.flex {
+    display: flex;
+}
+.icon-container {
+  width: 100%;
+  height: 80vh;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.music-container {
+    width: 95%;
+    height: 80vh;
+}
+
+.music-head-section {
+  height: 40vh;
+  background-color: #4e4e4e;
+  display: flex;
+  gap: 50px;
+  padding: 25px;
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+.title div {
+    color: white;
+}
+.button {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+.music-list {
+    height: 40vh;
+}
+.coloum {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+    margin: 0px 9px;
+}
+.coloum:nth-child(even){
+    background-color: rgb(245, 234, 234);
+    
+}
+.coloum div {
+    width: 350px;
+    height: 25px;
+}
+
+.footer {
+    width: 100%;
+    height: 20vh;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.left img {
+    height: 19vh;
+    padding: 10px;
+}
+.right {
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
