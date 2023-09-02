@@ -1,0 +1,22 @@
+body {
+    padding: 50px;
+}
+
+.loader {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    /* background-color: brown; */
+    border: 5px solid #ddd;
+    border-top: 5px solid #333;
+    animation: loader 1s ease infinite;
+}
+
+@keyframes loader {
+    0% {
+        rotate: 0deg;
+    }
+    100% {
+        rotate: 360deg;
+    }
+}
