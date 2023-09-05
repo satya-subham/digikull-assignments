@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flights</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav">
+                <div>
+                    <h2>TRIPBOND</h2>
+                </div>
+                <div class="links">
+                    <a href="../index.html">HOME</a>
+                    <a href="../Hotels/index.html">HOTELS</a>
+                    <a href="">TOURS</a>
+                </div>
+                <div class="login">
+                    <button>LOGIN / SIGNUP</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="main-container">
+            <div class="cover">
+                <h1>WHERE WOULD YOU <span>LIKE TO GO</span></h1>
+                <form action="">
+                    <label for="from">From</label> <br>
+                    <input type="text" id="from" placeholder="maharana paratap airport , rajasthan"> <br>
+                    <label for="to">To</label> <br>
+                    <input type="text" id="to" placeholder="chattrapati shivaji maharaj airpott , mumbai"> <br>
+                    <div class="date-passenger">
+                        <div>
+                            <label for="date">Date</label> <br>
+                            <input type="date" id="date"> <br>
+                        </div>
+                        <div>
+                            <label for="passenger">Passenger</label> <br>
+                            <input list="passengers" id="passenger" placeholder="1 Adult . Bussiness">
+                            <datalist id="passengers">
+                                <option value="1 Adult . Bussiness"></option>
+                                <option value="2 Adult . Bussiness"></option>
+                                <option value="3 Adult . Bussiness"></option>
+                                <option value="4 Adult . Bussiness"></option>
+                                <option value="5 Adult . Bussiness"></option>
+                            </datalist>
+                        </div>
+                    </div>
+                     <input type="radio" id="one-way" name="trip" value="one-way">
+                          <label for="one-way">ONE WAY</label>
+                          <input type="radio" id="round-trip" name="trip" value="round-trip">
+                          <label for="round-trip">ROUND TRIP</label><br>
+
+                        <button type="submit">BOOK NOW</button>
+                </form>
+            </div>
+
+        </div>
+    </main>
+</body>
+
+</html>
