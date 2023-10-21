@@ -42,9 +42,16 @@ function createListElement() {
   li.addEventListener("click", crossOut);
   li.addEventListener("dblclick", strikeOut);
 
+  
   let deleteButton = document.createElement("button");
   deleteButton.appendChild(document.createTextNode("X"));
   li.appendChild(deleteButton);
+  let editButton = document.createElement("button");
+  editButton.innerHTML = `<i class="fas fa-pencil-alt"></i>`;
+  li.appendChild(editButton);
+  editButton.addEventListener("click",()=>{
+    li.setAttribute("editable", "true");
+  })
 
   deleteButton.addEventListener("click", deleteListItem);
 
