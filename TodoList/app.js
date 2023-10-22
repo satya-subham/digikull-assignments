@@ -50,7 +50,14 @@ function createListElement() {
   editButton.innerHTML = `<i class="fas fa-pencil-alt"></i>`;
   li.appendChild(editButton);
   editButton.addEventListener("click",()=>{
-    li.setAttribute("editable", "true");
+    li.contentEditable = true;
+  })
+
+  let tickButton = document.createElement("button");
+  tickButton.innerHTML = `<i class="fa-solid fa-check"></i>`;
+  li.appendChild(tickButton);
+  tickButton.addEventListener("click",()=>{
+    li.contentEditable = false;
   })
 
   deleteButton.addEventListener("click", deleteListItem);
