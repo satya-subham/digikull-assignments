@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: beige;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form {
+  width: 450px;
+  background-color: white;
+  margin: 50px 0;
+  border-radius: 5px;
+}
+.heading {
+  width: 450px;
+  height: 50px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+}
+.bill-amount {
+  margin: 30px auto 0px 35px;
+}
+.bill-amount input {
+  width: 300px;
+  height: 40px;
+  outline: none;
+  font-size: medium;
+  text-align: center;
+}
+.service {
+  margin: 30px auto 0px 35px;
+}
+.service select {
+  width: 300px;
+  height: 40px;
+  outline: none;
+  margin-left: 22px;
+  padding: 5px;
+  font-size: medium;
+}
+.number-of-people {
+  margin: 30px auto 0px 35px;
+}
+.number-of-people input {
+  width: 300px;
+  height: 40px;
+  outline: none;
+  margin-left: 22px;
+  font-size: medium;
+  text-align: center;
+}
+.button {
+  margin: 20px 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  background-color: coral;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  padding: 5px 10px;
+}
+.amount {
+  text-align: center;
+  padding: 10px;
+}
